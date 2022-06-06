@@ -1,0 +1,79 @@
+.main-wifi-container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    height: fit-content;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+.main-wifi-container .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.main-wifi-container .header > p{
+    font-size: 20px;
+}
+
+.main-wifi-container .wifi{
+    border: 1px solid rgb(167, 158, 158);
+    width: 52px;
+    height: 26px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-wifi-container .wifi p{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+
+/* .main-wifi-container .wifi:hover{
+    border: 1px solid blue;
+}
+
+.main-wifi-container .wifi:hover p{
+    position: absolute;
+    left: 30px;
+    background-color: blue;
+} */
+
+.main-wifi-container .center{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid gray; */
+box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-wifi-container .center h2{
+    margin: 40px 0
+}
+
+.main-wifi-container .btns{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.main-wifi-container .btns .btn{
+    padding: 10px 15px;
+    margin: 10px 20px;
+}

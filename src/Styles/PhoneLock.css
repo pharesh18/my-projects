@@ -1,0 +1,79 @@
+.main-container{
+    width: 250px;
+    height: fit-content;
+    background-color: rgba(124, 120, 120, 0.932);
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.main-container .lock{
+    color: rgb(235, 228, 228);
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.main-container .msg p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(235, 228, 228);
+    margin-bottom: 30px;
+}
+
+.process{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.process .circle{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(182, 169, 169);
+    border-radius: 50%;
+}
+
+.main-container .btns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 10px;
+}
+
+.main-container .btns .btn{
+    width: 30px;
+    height: 30px;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 10px 20px;
+    color: rgb(235, 228, 228);
+    cursor: pointer;
+}
+
+.footer--buttons{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 5px;
+}
+
+.footer--buttons .btn{
+    background-color: transparent;
+    color: rgb(235, 228, 228);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer--buttons .btn:last-child{
+    font-size: 14px;
+    transform: rotate(-30deg);
+}

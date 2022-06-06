@@ -1,0 +1,16 @@
+.api{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 300px;
+}
+
+.api h1{
+    margin: 10px 0;
+}
+
+select{
+    width: fit-content;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+}

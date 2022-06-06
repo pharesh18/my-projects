@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todo{
+    width: 800px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto 30px;
+    border: 1px solid rgb(240, 181, 20);
+    padding: 20px 30px;
+}
+
+.todo h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .clear button{
+    background-color: rgb(240, 181, 20);
+    border: 1px solid rgb(240, 181, 20);
+    color: #fff;
+    margin-left: 10px;
+    height: 43px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header .clear button:hover{
+    background-color: #fff;
+    border: 1px solid rgb(240, 181, 20);
+    color: rgb(240, 181, 20);
+}
+
+.searchBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(240, 181, 20);
+}
+
+.searchBar h1{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-left: 1px solid rgb(240, 181, 20);
+    color: rgb(240, 181, 20);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.searchBar h1:hover{
+    background-color: rgb(240, 181, 20);
+    color: #fff;
+}
+
+.searchBar input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.listContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.container{
+    width: 230px;
+    min-height: 140px;
+    border: 1px solid rgb(240, 181, 20);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.container p{
+    min-height: 100px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.footer .update{
+    margin-right: 5px;
+    color: #fff;
+    background-color: rgb(240, 181, 20);
+    padding: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(240, 181, 20);
+}
+
+.footer .delete{
+    color: #fff;
+    background-color: rgb(240, 181, 20);
+    padding: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(240, 181, 20);
+}
+
+.footer .delete:hover, .footer .update:hover{
+    color: rgb(240, 181, 20);
+    background-color: #fff;
+    border: 1px solid rgb(240, 181, 20);
+}

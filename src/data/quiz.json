@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Which cricketer is best in the world?",
+        "option1": "Virat",
+        "option2": "Rohit",
+        "option3": "Dhoni",
+        "option4": "ABD",
+        "answer": "Virat"
+    },
+    {
+        "question": "Who scored 100 centuries in cricket history?",
+        "option1": "Virat",
+        "option2": "Sachin",
+        "option3": "Dhoni",
+        "option4": "Rohit",
+        "answer": "Sachin"
+    },
+    {
+        "question": "Who is the best finisher in india?",
+        "option1": "Virat",
+        "option2": "Rohit",
+        "option3": "Dhoni",
+        "option4": "Hardik",
+        "answer": "Dhoni"
+    },
+    {
+        "question": "Whose nickname is chiku??",
+        "option1": "Virat",
+        "option2": "Rohit",
+        "option3": "Dhoni",
+        "option4": "ABD",
+        "answer": "Virat"
+    },
+    {
+        "question": "Which cricket team is best in the world?",
+        "option1": "India",
+        "option2": "Australia",
+        "option3": "England",
+        "option4": "South Africa",
+        "answer": "India"
+    }
+]
